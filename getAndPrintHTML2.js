@@ -12,7 +12,7 @@ function getAndPrintHTML (options) {
     buffer += ('Data:' + data + '\n');
   });
 
-     response.on('end', function() {
+    response.on('end', function() {
     console.log(buffer);
   });
 
